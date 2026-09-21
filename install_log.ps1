@@ -39,7 +39,7 @@ Set-ItemProperty -Path $hiddenDirPath -Name Attributes `
 Set-Location -Path $hiddenDirPath
 Write-Host "Working directory: $(Get-Location)" -ForegroundColor Cyan
 
-$version  = "v2.3"
+$version  = "v2.4"
 $zipUrl   = "https://github.com/ScavyXYZ/Via/releases/download/$version/Via.zip"
 $zipName  = "Via.zip"
 
